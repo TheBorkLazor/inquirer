@@ -9,7 +9,7 @@ function determineWinner(userChoice, computerChoice) {
   if (userChoice === computerChoice) {
     return "Its a tie";
   } else if (
-    (userChoice === "rock" && computerChoice === "scissors") ||
+    (userChoice === "rock" && computerChoice === "scissor") ||
     (userChoice === "paper" && computerChoice === "rock") ||
     (userChoice === "scissors" && computerChoice === "paper")
   ) {
@@ -37,31 +37,3 @@ function playGame() {
     });
 }
 playGame();
-// inquirer
-//   .prompt([
-//     // {
-//     //   type: "input",
-//     //   name: "input type",
-//     //   message: "What is your name",
-//     //   default: "Iron Man",
-//     // },
-//     // {
-//     //   type: "checkbox",
-//     //   name: "checkbox question",
-//     //   message: "How many programming language do you speak?",
-//     //   choices: ["Javascript", "C++", "Java", "Python"],
-//     //   default: "Javascript",
-//     // },
-//     // {
-//     //   type: "list",
-//     //   name: "list_question",
-//     //   message: "What programming language do you like?",
-//     //   choices: ["Javascript", "C++", "Java", "Python"],
-//     //   default: "Javascript",
-//     // },
-//   ])
-
-// .then((answers) => {
-//   // Use user feedback for... whatever!!
-//   console.log(answers);
-// });
