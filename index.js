@@ -9,7 +9,7 @@ function determineWinner(userChoice, computerChoice) {
   if (userChoice === computerChoice) {
     return "Its a tie";
   } else if (
-    (userChoice === "rock" && computerChoice === "scissors") ||
+    (userChoice === "rock" && computerChoice === "scissor") ||
     (userChoice === "paper" && computerChoice === "rock") ||
     (userChoice === "scissors" && computerChoice === "paper")
   ) {
